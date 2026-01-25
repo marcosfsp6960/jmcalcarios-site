@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link id="brandFavicon" rel="icon" href="assets/img/favicon.png" />
+  <meta name="description" content="JM Calcários em Campos Belos - GO. Calcário agrícola e britas com entrega própria para GO, TO e BA. Orçamento rápido no WhatsApp." />
+  <meta name="keywords" content="calcário agrícola, brita, Campos Belos, Goiás, Tocantins, Bahia, correção de solo, construção civil" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="JM Calcários" />
+  <meta property="og:description" content="Calcário agrícola e britas com entrega própria para GO, TO e BA." />
+  <meta property="og:site_name" content="JM Calcários" />
+
+  <link rel="preload" href="assets/css/styles.css" as="style" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="home">
+  <div id="fatal" class="container hidden" style="padding:14px; margin-top:14px; border:1px solid rgba(255,80,80,.35); border-radius:18px; background: rgba(255,80,80,.12);"></div>
+  <header>
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Ir para página inicial">
+      <span class="logo"><img id="brandLogo" src="assets/img/logo.png" alt="Logo"></span>
+      <span class="text">
+        <strong id="brandName">JM Calcários</strong>
+        <span id="brandTagline">Calcário agrícola e britas com entrega própria</span>
+      </span>
+    </a>
+
+    <nav class="menu" aria-label="Menu principal">
+      <a data-nav href="index.html">Início</a>
+      <a data-nav href="produtos.html">Produtos</a>
+      <a data-nav href="entrega.html">Entrega & Regiões</a>
+      <a data-nav href="empresa.html">A Empresa</a>
+      <a data-nav href="contato.html">Contato</a>
+    </nav>
+
+    <div class="actions">
+      <a class="btn primary" data-wa href="#" aria-label="Pedir orçamento no WhatsApp">
+        <span>WhatsApp</span>
+        <span class="badge" data-wa-display>+55 (62) 9640-5492</span>
+      </a>
+
+      <button id="btnOpenNav" class="btn small hamburger" type="button" aria-label="Abrir menu">
+        ☰
+      </button>
+    </div>
+  </div>
+</header>
+
+<div id="mobileNav" class="mobile-drawer hidden" aria-hidden="true">
+  <div class="drawer" id="drawerInner" role="dialog" aria-label="Menu">
+    <div class="top">
+      <span class="badge">Menu</span>
+      <button id="btnCloseNav" class="icon-btn" type="button" aria-label="Fechar menu">✕</button>
+    </div>
+    <a data-nav href="index.html">Início</a>
+    <a data-nav href="produtos.html">Produtos</a>
+    <a data-nav href="entrega.html">Entrega & Regiões</a>
+    <a data-nav href="empresa.html">A Empresa</a>
+    <a data-nav href="contato.html">Contato</a>
+    <div style="margin-top:10px;">
+      <a class="btn primary" data-wa href="#">Pedir orçamento no WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+  <main>
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-card">
+        <div class="badge">Campos Belos - GO • <span id="kpiAreas">GO • TO • BA</span></div>
+        <h1 id="heroHeadline">Calcário Agrícola e Britas com entrega própria</h1>
+        <p id="heroSubheadline">Atendemos GO, TO e BA com agilidade, padrão de qualidade e atendimento rápido.</p>
+
+        <div class="hero-ctas">
+          <a class="btn primary" data-wa href="#" aria-label="Pedir orçamento no WhatsApp">
+            <span id="heroCtaPrimaryText">Pedir orçamento no WhatsApp</span>
+          </a>
+          <a class="btn ghost" href="produtos.html" aria-label="Ver produtos">
+            <span id="heroCtaSecondaryText">Ver produtos</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span class="badge">Entrega própria</span>
+          <span class="badge">Atendimento rápido</span>
+          <span class="badge">Agro e obras</span>
+          <span class="badge">NF e organização comercial</span>
+        </div>
+
+        <div class="panel" style="margin-top:16px;">
+          <h3 style="margin:0 0 8px;">Orçamento rápido (em 20 segundos)</h3>
+          <p style="margin:0 0 12px;">Preencha e enviaremos direto no WhatsApp.</p>
+
+          <form id="quoteForm">
+            <div class="form-row">
+              <div class="field">
+                <label for="qnome">Nome</label>
+                <input id="qnome" name="nome" placeholder="Seu nome" required />
+              </div>
+              <div class="field">
+                <label for="qcidade">Cidade/UF</label>
+                <input id="qcidade" name="cidade" placeholder="Ex.: Campos Belos/GO" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="qproduto">Produto</label>
+                <select id="qproduto" name="produto" required>
+                  <option value="" selected>Selecione</option>
+                  <option>Calcário Agrícola</option>
+                  <option>Britas</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="qqtd">Quantidade</label>
+                <input id="qqtd" name="quantidade" placeholder="Ex.: 10 toneladas" required />
+              </div>
+            </div>
+
+            <button class="btn primary" type="submit">Enviar no WhatsApp</button>
+            <div class="helper">Dica: quanto mais detalhes, melhor (endereço, acesso, urgência).</div>
+          </form>
+        </div>
+      </div>
+
+      <div class="media-card">
+        <div class="media">
+          <img id="heroImg" src="assets/img/hero.jpg" alt="Operação JM Calcários">
+          <video id="heroVideo" class="hidden" autoplay muted loop playsinline></video>
+
+          <div class="overlay">
+            <div class="kpis">
+              <div class="kpi">
+                <strong id="kpiCity">Campos Belos - GO</strong>
+                <span>Base de operação</span>
+              </div>
+              <div class="kpi">
+                <strong>GO • TO • BA</strong>
+                <span>Regiões atendidas</span>
+              </div>
+              <div class="kpi">
+                <strong>Entrega própria</strong>
+                <span>Rotas e agendamento</span>
+              </div>
+              <div class="kpi">
+                <strong>WhatsApp</strong>
+                <span>Orçamento rápido</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Produtos</h2>
+          <p>Fornecemos calcário agrícola e britas com foco em qualidade, padrão e logística eficiente.</p>
+        </div>
+        <a class="btn" href="produtos.html">Ver detalhes</a>
+      </div>
+      <div id="productsCards" class="cards"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Entrega & Logística</h2>
+          <p>Fluxo simples, direto e rápido — do orçamento à entrega.</p>
+        </div>
+        <a class="btn" href="entrega.html">Ver regiões</a>
+      </div>
+      <div id="logSteps" class="split"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Fotos & Vídeos</h2>
+          <p>Substitua as imagens/vídeos pelos seus arquivos reais para deixar o site com cara 100% profissional.</p>
+        </div>
+        <span class="badge">Clique para ampliar</span>
+      </div>
+
+      <div id="gallery" class="gallery"></div>
+
+      <div style="height:14px;"></div>
+
+      <div class="section-title">
+        <div>
+          <h2>Vídeos</h2>
+          <p>Você pode colocar vídeos de carregamento, frota, pedreira/mineradora, etc.</p>
+        </div>
+      </div>
+      <div id="videos" class="video-grid"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Depoimentos</h2>
+          <p>Depoimentos reais aumentam muito a conversão — coloque 3 a 6.</p>
+        </div>
+      </div>
+      <div id="testimonials" class="cards"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Perguntas Frequentes</h2>
+          <p>Respostas rápidas para acelerar o fechamento.</p>
+        </div>
+      </div>
+      <div id="faq" class="faq"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="panel">
+        <div class="grid" style="grid-template-columns: 1.2fr .8fr; gap:14px; align-items:center;">
+          <div>
+            <h3 style="margin:0 0 8px;">Pronto para cotar?</h3>
+            <p style="margin:0; color:var(--muted);">Clique no WhatsApp e envie: cidade/UF + produto + quantidade.</p>
+          </div>
+          <div style="display:flex; gap:10px; justify-content:flex-end; flex-wrap:wrap;">
+            <a class="btn primary" data-wa href="#">Pedir orçamento</a>
+            <a class="btn" href="contato.html">Contato</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+  <footer>
+  <div class="container footer-grid">
+    <div>
+      <strong id="footerBrand">JM Calcários</strong>
+      <p class="small" style="margin:8px 0 0;">
+        <span id="footerCity">Campos Belos - GO</span><br>
+        Atendemos: <span id="footerAreas">GO • TO • BA</span><br>
+        WhatsApp: <span data-wa-display>+55 (62) 9640-5492</span>
+      </p>
+    </div>
+    <div>
+      <strong>Atalhos</strong>
+      <p class="small" style="margin:8px 0 0; display:grid; gap:6px;">
+        <a href="produtos.html">Produtos</a>
+        <a href="entrega.html">Entrega & Regiões</a>
+        <a href="empresa.html">A Empresa</a>
+        <a href="contato.html">Contato</a>
+      </p>
+    </div>
+    <div>
+      <strong>Orçamento rápido</strong>
+      <p class="small" style="margin:8px 0 0;">
+        Clique no botão do WhatsApp e envie: <br>
+        <em>Cidade/UF • Produto • Quantidade</em>
+      </p>
+      <p class="small" style="margin:10px 0 0;">
+        © <span id="footerYear">2026</span> <span id="footerCompany">JM Calcários</span>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div class="wa-float" aria-label="Atalho do WhatsApp">
+  <a data-wa href="#">
+    <span class="dot" aria-hidden="true"></span>
+    <div>
+      <strong>Orçamento no WhatsApp</strong>
+      <small data-wa-display>+55 (62) 9640-5492</small>
+    </div>
+  </a>
+</div>
+
+<div id="cookie" class="cookie">
+  <p id="cookieText"></p>
+  <div class="row">
+    <button id="cookieOk" class="btn primary small" type="button">Ok, entendi</button>
+    <a class="btn small" href="contato.html">Contato</a>
+  </div>
+</div>
+
+<div id="modal" class="modal hidden" aria-hidden="true">
+  <div class="inner">
+    <div class="top">
+      <span class="badge">Visualização</span>
+      <button id="modalClose" class="close" type="button">Fechar</button>
+    </div>
+    <div class="body">
+      <img id="modalImg" src="" alt="Imagem ampliada">
+    </div>
+  </div>
+</div>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

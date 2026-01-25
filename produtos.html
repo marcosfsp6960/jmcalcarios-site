@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link id="brandFavicon" rel="icon" href="assets/img/favicon.png" />
+  <meta name="description" content="JM Calcários em Campos Belos - GO. Calcário agrícola e britas com entrega própria para GO, TO e BA. Orçamento rápido no WhatsApp." />
+  <meta name="keywords" content="calcário agrícola, brita, Campos Belos, Goiás, Tocantins, Bahia, correção de solo, construção civil" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="JM Calcários" />
+  <meta property="og:description" content="Calcário agrícola e britas com entrega própria para GO, TO e BA." />
+  <meta property="og:site_name" content="JM Calcários" />
+
+  <link rel="preload" href="assets/css/styles.css" as="style" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="produtos">
+  <div id="fatal" class="container hidden" style="padding:14px; margin-top:14px; border:1px solid rgba(255,80,80,.35); border-radius:18px; background: rgba(255,80,80,.12);"></div>
+  <header>
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Ir para página inicial">
+      <span class="logo"><img id="brandLogo" src="assets/img/logo.png" alt="Logo"></span>
+      <span class="text">
+        <strong id="brandName">JM Calcários</strong>
+        <span id="brandTagline">Calcário agrícola e britas com entrega própria</span>
+      </span>
+    </a>
+
+    <nav class="menu" aria-label="Menu principal">
+      <a data-nav href="index.html">Início</a>
+      <a data-nav href="produtos.html">Produtos</a>
+      <a data-nav href="entrega.html">Entrega & Regiões</a>
+      <a data-nav href="empresa.html">A Empresa</a>
+      <a data-nav href="contato.html">Contato</a>
+    </nav>
+
+    <div class="actions">
+      <a class="btn primary" data-wa href="#" aria-label="Pedir orçamento no WhatsApp">
+        <span>WhatsApp</span>
+        <span class="badge" data-wa-display>+55 (62) 9640-5492</span>
+      </a>
+
+      <button id="btnOpenNav" class="btn small hamburger" type="button" aria-label="Abrir menu">
+        ☰
+      </button>
+    </div>
+  </div>
+</header>
+
+<div id="mobileNav" class="mobile-drawer hidden" aria-hidden="true">
+  <div class="drawer" id="drawerInner" role="dialog" aria-label="Menu">
+    <div class="top">
+      <span class="badge">Menu</span>
+      <button id="btnCloseNav" class="icon-btn" type="button" aria-label="Fechar menu">✕</button>
+    </div>
+    <a data-nav href="index.html">Início</a>
+    <a data-nav href="produtos.html">Produtos</a>
+    <a data-nav href="entrega.html">Entrega & Regiões</a>
+    <a data-nav href="empresa.html">A Empresa</a>
+    <a data-nav href="contato.html">Contato</a>
+    <div style="margin-top:10px;">
+      <a class="btn primary" data-wa href="#">Pedir orçamento no WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+  <main>
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Produtos</h2>
+          <p>Detalhes de fornecimento e aplicação para o agro e para obras.</p>
+        </div>
+        <a class="btn primary" data-wa href="#">Pedir orçamento</a>
+      </div>
+
+      <div id="productsList" class="grid" style="gap:14px;"></div>
+
+      <div class="panel" style="margin-top:14px;">
+        <h3 style="margin:0 0 8px;">Quer que a página fique ainda mais técnica?</h3>
+        <p style="margin:0; color:var(--muted);">
+          Você pode adicionar aqui: análises, especificações, granulometria, embalagem/ensacamento, e fotos por tipo de produto.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer>
+  <div class="container footer-grid">
+    <div>
+      <strong id="footerBrand">JM Calcários</strong>
+      <p class="small" style="margin:8px 0 0;">
+        <span id="footerCity">Campos Belos - GO</span><br>
+        Atendemos: <span id="footerAreas">GO • TO • BA</span><br>
+        WhatsApp: <span data-wa-display>+55 (62) 9640-5492</span>
+      </p>
+    </div>
+    <div>
+      <strong>Atalhos</strong>
+      <p class="small" style="margin:8px 0 0; display:grid; gap:6px;">
+        <a href="produtos.html">Produtos</a>
+        <a href="entrega.html">Entrega & Regiões</a>
+        <a href="empresa.html">A Empresa</a>
+        <a href="contato.html">Contato</a>
+      </p>
+    </div>
+    <div>
+      <strong>Orçamento rápido</strong>
+      <p class="small" style="margin:8px 0 0;">
+        Clique no botão do WhatsApp e envie: <br>
+        <em>Cidade/UF • Produto • Quantidade</em>
+      </p>
+      <p class="small" style="margin:10px 0 0;">
+        © <span id="footerYear">2026</span> <span id="footerCompany">JM Calcários</span>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div class="wa-float" aria-label="Atalho do WhatsApp">
+  <a data-wa href="#">
+    <span class="dot" aria-hidden="true"></span>
+    <div>
+      <strong>Orçamento no WhatsApp</strong>
+      <small data-wa-display>+55 (62) 9640-5492</small>
+    </div>
+  </a>
+</div>
+
+<div id="cookie" class="cookie">
+  <p id="cookieText"></p>
+  <div class="row">
+    <button id="cookieOk" class="btn primary small" type="button">Ok, entendi</button>
+    <a class="btn small" href="contato.html">Contato</a>
+  </div>
+</div>
+
+<div id="modal" class="modal hidden" aria-hidden="true">
+  <div class="inner">
+    <div class="top">
+      <span class="badge">Visualização</span>
+      <button id="modalClose" class="close" type="button">Fechar</button>
+    </div>
+    <div class="body">
+      <img id="modalImg" src="" alt="Imagem ampliada">
+    </div>
+  </div>
+</div>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+{
+  "brand": {
+    "name": "JM Calcários",
+    "tagline": "Calcário agrícola e britas com entrega própria",
+    "city": "Campos Belos - GO",
+    "whatsappNumberE164": "556296405492",
+    "whatsappDisplay": "+55 (62) 9640-5492",
+    "serviceAreas": ["GO", "TO", "BA"],
+    "logoPath": "assets/img/logo.png",
+    "faviconPath": "assets/img/favicon.png"
+  },
+  "seo": {
+    "siteUrl": "https://SEU-DOMINIO-AQUI.com.br",
+    "defaultTitle": "JM Calcários | Calcário Agrícola e Britas em Campos Belos - GO",
+    "defaultDescription": "JM Calcários em Campos Belos - GO. Calcário agrícola e britas com entrega própria para GO, TO e BA. Orçamento rápido no WhatsApp.",
+    "keywords": [
+      "calcário agrícola", "brita", "Campos Belos", "Goiás", "Tocantins", "Bahia",
+      "correção de solo", "construção civil", "agro", "mineração"
+    ]
+  },
+  "hero": {
+    "headline": "Calcário Agrícola e Britas com entrega própria",
+    "subheadline": "Atendemos GO, TO e BA com agilidade, padrão de qualidade e atendimento rápido.",
+    "primaryCtaText": "Pedir orçamento no WhatsApp",
+    "secondaryCtaText": "Ver produtos",
+    "heroImage": "assets/img/hero.jpg",
+    "heroVideo": "assets/videos/hero.mp4",
+    "useVideoIfAvailable": true
+  },
+  "products": [
+    {
+      "name": "Calcário Agrícola",
+      "subtitle": "Correção de solo e aumento de produtividade",
+      "description": "Fornecimento de calcário agrícola com padrão e constância, ideal para correção da acidez do solo e melhoria do desempenho da lavoura.",
+      "image": "assets/img/prod-calcario.jpg",
+      "highlights": ["Correção de acidez", "Apoio ao manejo", "Fornecimento organizado"]
+    },
+    {
+      "name": "Britas",
+      "subtitle": "Material para construção civil e bases",
+      "description": "Britas para obras e construção civil. Opções podem variar conforme disponibilidade e necessidade do cliente.",
+      "image": "assets/img/prod-brita.jpg",
+      "highlights": ["Obras em geral", "Bases e estruturas", "Entrega programada"]
+    }
+  ],
+  "logistics": {
+    "title": "Entrega & Logística",
+    "description": "Temos entrega própria e atendimento para GO, TO e BA. Orçamento rápido e entrega conforme rota e disponibilidade.",
+    "steps": [
+      {"title": "1) Solicite o orçamento", "text": "Envie cidade/UF, produto e quantidade no WhatsApp."},
+      {"title": "2) Confirmação e agendamento", "text": "Confirmamos valor, prazo e melhor janela de entrega."},
+      {"title": "3) Entrega própria", "text": "Entregamos conforme rota e disponibilidade, com atendimento direto."}
+    ]
+  },
+  "gallery": {
+    "title": "Fotos & Vídeos",
+    "description": "Adicione fotos reais da operação, carregamento, materiais e frota — isso aumenta muito a confiança do cliente.",
+    "images": [
+      "assets/img/galeria-01.jpg",
+      "assets/img/galeria-02.jpg",
+      "assets/img/galeria-03.jpg",
+      "assets/img/galeria-04.jpg",
+      "assets/img/galeria-05.jpg",
+      "assets/img/galeria-06.jpg"
+    ],
+    "videos": [
+      {"title": "Operação / Carregamento", "src": "assets/videos/video-01.mp4", "poster": "assets/img/video-01.jpg"},
+      {"title": "Frota / Entrega", "src": "assets/videos/video-02.mp4", "poster": "assets/img/video-02.jpg"}
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Cliente (exemplo)",
+      "role": "Produtor / Empresa",
+      "quote": "Atendimento rápido e entrega no prazo. Material com padrão e boa logística."
+    },
+    {
+      "name": "Cliente (exemplo)",
+      "role": "Construtora",
+      "quote": "Boa organização no carregamento e comunicação clara. Recomendo."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Vocês entregam em quais estados?",
+      "a": "Atendemos GO, TO e BA com entrega própria, conforme rota e disponibilidade."
+    },
+    {
+      "q": "Como pedir orçamento rápido?",
+      "a": "Chame no WhatsApp e informe cidade/UF, produto (calcário ou brita) e quantidade."
+    },
+    {
+      "q": "Emitem nota fiscal?",
+      "a": "Sim. Emitimos NF conforme o tipo de operação e dados fornecidos."
+    }
+  ],
+  "contact": {
+    "email": "SEUEMAIL@exemplo.com",
+    "addressLine": "Campos Belos - GO",
+    "mapEmbedUrl": "https://www.google.com/maps?q=Campos+Belos+GO&output=embed"
+  },
+  "legal": {
+    "companyName": "JM Calcários",
+    "year": 2026,
+    "privacyNote": "Este site pode usar cookies essenciais para melhorar a experiência. Ao continuar, você concorda com a nossa política de privacidade."
+  }
+}
