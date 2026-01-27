@@ -2,7 +2,7 @@
   "brand": {
     "name": "JM Calcários",
     "tagline": "Calcário agrícola e britas com entrega própria",
-    "city": "Campos Belos - GO",
+    "city": "Monte Alegre - GO",
     "whatsappNumberE164": "556296405492",
     "whatsappDisplay": "+55 (62) 9640-5492",
     "serviceAreas": ["GO", "TO", "BA"],
@@ -11,10 +11,10 @@
   },
   "seo": {
     "siteUrl": "https://SEU-DOMINIO-AQUI.com.br",
-    "defaultTitle": "JM Calcários | Calcário Agrícola e Britas em Campos Belos - GO",
-    "defaultDescription": "JM Calcários em Campos Belos - GO. Calcário agrícola e britas com entrega própria para GO, TO e BA. Orçamento rápido no WhatsApp.",
+    "defaultTitle": "JM Calcários | Calcário Agrícola e Britas em Monte Alegre - GO",
+    "defaultDescription": "JM Calcários em Monte Alegre - GO. Calcário agrícola e britas com entrega própria para GO, TO e BA. Orçamento rápido no WhatsApp.",
     "keywords": [
-      "calcário agrícola", "brita", "Campos Belos", "Goiás", "Tocantins", "Bahia",
+      "calcário agrícola", "brita", "Monte Alegre", "Goiás", "Tocantins", "Bahia",
       "correção de solo", "construção civil", "agro", "mineração"
     ]
   },
@@ -95,9 +95,9 @@
     }
   ],
   "contact": {
-    "email": "SEUEMAIL@exemplo.com",
-    "addressLine": "Campos Belos - GO",
-    "mapEmbedUrl": "https://www.google.com/maps?q=Campos+Belos+GO&output=embed"
+    "email": "jmcalcariosebritas@gmail.com",
+    "addressLine": "Rodovia GO, 118, Fazenda Lagoa, KM 322, à esquerda, S/N. Zona Rural, Monte Alegre de Goiás - GO. CEP: 73.830-000",
+    "mapEmbedUrl": "https://www.google.com/maps?q=-13.21433,-46.79310&output=embed"
   },
   "legal": {
     "companyName": "JM Calcários",
