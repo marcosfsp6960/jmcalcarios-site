@@ -808,7 +808,6 @@ async function initHome() {
         </video>
         <div class="pad">
           <strong>${escapeHtml(v.title || "Vídeo")}</strong>
-          <span>Substitua os arquivos em /assets/videos</span>
         </div>
       </div>
     `).join("");
@@ -1330,12 +1329,6 @@ PROD_MAIN=$(cat <<'HTML'
 
       <div id="productsList" class="grid" style="gap:14px;"></div>
 
-      <div class="panel" style="margin-top:14px;">
-        <h3 style="margin:0 0 8px;">Quer que a página fique ainda mais técnica?</h3>
-        <p style="margin:0; color:var(--muted);">
-          Você pode adicionar aqui: análises, especificações, granulometria, embalagem/ensacamento, e fotos por tipo de produto.
-        </p>
-      </div>
     </div>
   </section>
 </main>
@@ -1419,19 +1412,6 @@ EMP_MAIN=$(cat <<'HTML'
             <li>Logística com entrega própria</li>
             <li>Fornecimento para agro e obras</li>
           </ul>
-        </div>
-        <div class="panel">
-          <h3>O que colocar aqui (pra ficar “premium”)</h3>
-          <p>
-            ✅ Fotos da operação<br>
-            ✅ Fotos do carregamento e materiais<br>
-            ✅ Vídeos curtos de entrega/frota<br>
-            ✅ Certificações/licenças e compromissos (se quiser publicar)
-          </p>
-          <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
-            <a class="btn" href="contato.html">Contato</a>
-            <a class="btn primary" data-wa href="#">Orçar</a>
-          </div>
         </div>
       </div>
 
@@ -1520,7 +1500,6 @@ CONT_MAIN=$(cat <<'HTML'
             </div>
 
             <button class="btn primary" type="submit">Enviar no WhatsApp</button>
-            <div class="helper">Esse formulário não salva dados no servidor; ele abre o WhatsApp com a mensagem pronta.</div>
           </form>
         </div>
 
@@ -1529,10 +1508,6 @@ CONT_MAIN=$(cat <<'HTML'
           <div class="map">
             <iframe id="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <div style="height:12px;"></div>
-          <p class="small">
-            Para colocar o mapa exato da empresa, substitua a URL em <code>assets/data/content.json</code> (campo <code>mapEmbedUrl</code>).
-          </p>
         </div>
       </div>
 
