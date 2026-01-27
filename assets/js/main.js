@@ -145,9 +145,31 @@ async function initHome() {
   const useVideo = Boolean(hero.useVideoIfAvailable && hero.heroVideo);
 
   if (useVideo && mediaVid) {
+    const heroPoster = hero.heroImage || "assets/img/hero.jpg";
     mediaVid.src = hero.heroVideo;
+    if (heroPoster) mediaVid.poster = heroPoster;
     mediaVid.classList.remove("hidden");
     mediaImg?.classList.add("hidden");
+
+    const tryPlay = () => {
+      const playPromise = mediaVid.play();
+      if (playPromise && typeof playPromise.catch === "function") {
+        playPromise.catch(() => {});
+      }
+    };
+
+    tryPlay();
+
+    const unlockPlayback = () => {
+      tryPlay();
+      window.removeEventListener("touchstart", unlockPlayback);
+      window.removeEventListener("click", unlockPlayback);
+      window.removeEventListener("scroll", unlockPlayback);
+    };
+
+    window.addEventListener("touchstart", unlockPlayback, { once: true, passive: true });
+    window.addEventListener("click", unlockPlayback, { once: true });
+    window.addEventListener("scroll", unlockPlayback, { once: true, passive: true });
   } else {
     if (mediaImg) mediaImg.src = hero.heroImage || "assets/img/hero.jpg";
     mediaImg?.classList.remove("hidden");
