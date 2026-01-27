@@ -237,7 +237,6 @@ async function initHome() {
         </video>
         <div class="pad">
           <strong>${escapeHtml(v.title || "Vídeo")}</strong>
-          <span>Substitua os arquivos em /assets/videos</span>
         </div>
       </div>
     `).join("");

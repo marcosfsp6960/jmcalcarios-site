@@ -68,18 +68,6 @@
       {"title": "Frota / Entrega", "src": "assets/videos/video-02.mp4", "poster": "assets/img/video-02.jpg"}
     ]
   },
-  "testimonials": [
-    {
-      "name": "Cliente (exemplo)",
-      "role": "Produtor / Empresa",
-      "quote": "Atendimento rápido e entrega no prazo. Material com padrão e boa logística."
-    },
-    {
-      "name": "Cliente (exemplo)",
-      "role": "Construtora",
-      "quote": "Boa organização no carregamento e comunicação clara. Recomendo."
-    }
-  ],
   "faq": [
     {
       "q": "Vocês entregam em quais estados?",
