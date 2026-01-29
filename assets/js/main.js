@@ -402,6 +402,7 @@ async function initContact() {
     const fallback = document.getElementById("fatal");
     if (fallback) {
       fallback.classList.remove("hidden");
+      fallback.classList.add("error");
       fallback.textContent = "Erro ao carregar o conteúdo do site. Verifique assets/data/content.json";
     }
   }
