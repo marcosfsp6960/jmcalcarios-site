@@ -3,14 +3,14 @@
     "name": "JM Calcários",
     "tagline": "Calcário agrícola e britas com entrega própria",
     "city": "Monte Alegre - GO",
-    "whatsappNumberE164": "556296405492",
-    "whatsappDisplay": "+55 (62) 9640-5492",
+    "whatsappNumberE164": "5562996405492",
+    "whatsappDisplay": "+55 (62) 99640-5492",
     "serviceAreas": ["GO", "TO", "BA"],
     "logoPath": "assets/img/logo.png",
-    "faviconPath": "assets/img/favicon.png"
+    "faviconPath": "assets/img/favicon-180.png"
   },
   "seo": {
-    "siteUrl": "https://SEU-DOMINIO-AQUI.com.br",
+    "siteUrl": "https://jmcalcariosebritas.com",
     "defaultTitle": "JM Calcários | Calcário Agrícola e Britas em Monte Alegre - GO",
     "defaultDescription": "JM Calcários em Monte Alegre - GO. Calcário agrícola e britas com entrega própria para GO, TO e BA. Orçamento rápido no WhatsApp.",
     "keywords": [
