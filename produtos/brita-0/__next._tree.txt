@@ -1,0 +1,6 @@
+:HL["/_next/static/chunks/3fh1gpmtgpuea.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Public+Sans:wght@400;500;600&display=swap","style"]
+:HL["/marca/jm/principal-negativa.svg","image"]
+:HL["/marca/jm/principal-cor.svg","image"]
+:HL["/fotos/usina.webp","image",{"imageSrcSet":"/fotos/usina-p.webp 800w, /fotos/usina.webp 1600w","imageSizes":"(max-width: 900px) 100vw, 36vw"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"produtos","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"brita-0","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"29k3SyO5ehY5KOjVHzexI"}
